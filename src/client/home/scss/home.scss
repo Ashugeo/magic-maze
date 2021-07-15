@@ -93,6 +93,21 @@ h1 {
     }
 }
 
+.banner {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: $primary-color;
+    font-size: 1.1rem;
+    margin: 2rem 0;
+    user-select: none;
+
+    a {
+        font-weight: bold;
+        color: #000000;
+    }
+}
+
 a {
     color: $primary-color;
     text-decoration: none;
